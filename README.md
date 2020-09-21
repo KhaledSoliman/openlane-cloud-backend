@@ -5,6 +5,7 @@
 - openlane (http://openlane.io)
 - docker (https://docs.docker.com/desktop/#download-and-install)
 - git (https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+- redis (https://redis.io/topics/quickstart)
 - gcp account and firebase project
 
 ## Installation & Setup
