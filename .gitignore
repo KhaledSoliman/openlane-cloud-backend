@@ -181,3 +181,4 @@ backend/openlane.alpha-16/
 /backend/openlane/
 /backend/openlane_working_dir/
 /backend/service_account.json
+openlane_working_dir/
