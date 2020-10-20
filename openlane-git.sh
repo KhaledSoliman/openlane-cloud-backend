@@ -17,8 +17,8 @@ export IMAGE_NAME=openlane:cloud
 cd openlane_working_dir
 git clone https://github.com/efabless/openlane.git --branch develop
 cd openlane
+make openlane
 make skywater-pdk
 make all-skywater-libraries
 make open_pdks
 docker run -it -v $RUN_ROOT:/openLANE_flow -v $PDK_ROOT:$PDK_ROOT -e PDK_ROOT=$PDK_ROOT -u $(id -u $USER):$(id -g $USER) openlane:rc3  bash -c "make build-pdk"
-make openlane
