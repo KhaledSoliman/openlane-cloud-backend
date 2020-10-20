@@ -9,8 +9,6 @@ while [ $# -gt 0 ]; do
   esac
   shift
 done
-echo "$rootPath";
-exit;
 mkdir openlane_working_dir
 mkdir openlane_working_dir/pdks
 export PDK_ROOT="{$rootPath}/openlane_working_dir/pdks"
