@@ -11,8 +11,8 @@ while [ $# -gt 0 ]; do
 done
 mkdir openlane_working_dir
 mkdir openlane_working_dir/pdks
-export PDK_ROOT="{$rootPath}/openlane_working_dir/pdks"
-export RUN_ROOT="{$rootPath}/openlane_working_dir/openlane"
+export PDK_ROOT="$rootPath/openlane_working_dir/pdks"
+export RUN_ROOT="$rootPath/openlane_working_dir/openlane"
 export IMAGE_NAME=openlane:cloud
 cd openlane_working_dir
 git clone https://github.com/efabless/openlane.git --branch develop
